@@ -124,13 +124,6 @@ Made by Anshika Gaur
 ![Calculator Page](public/screenshot-calculator.png)
 ![Crypto Page](public/screenshot-crypto.png)
 
-
-
-
-## License
-
-This project is licensed under the MIT License.
-
 ## Copyright
 
 © 2025 Anshika Gaur. All rights reserved.
