@@ -98,6 +98,11 @@ Made by Anshika Gaur
 
 4. **Open your browser** and go to `http://localhost:3000` to view the app.
 
+5. ## Live Demo
+
+Check out the live project here: [MyInvest Live](https://myinvestwise.netlify.app/)
+
+
 ## How to Use Portfolio Tracker
 
 1. Navigate to the Portfolio page.
