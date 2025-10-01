@@ -1,70 +1,147 @@
-# Getting Started with Create React App
+# InvestWise
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A beginner-friendly ReactJS application for learning about investments and tracking your portfolio. Built with React Router, Tailwind CSS, and Recharts for a clean, responsive UI with green/blue theme.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Home Overview**: Welcome message, links to investment types, and beginner tips.
+- **Detailed Investment Pages**: Separate pages for Stocks, Bonds, Mutual Funds, ETFs, and Crypto with beginner info, pros/cons, how-to-start, trends charts, and FAQs.
+- **Portfolio Tracker**: Add, view, and remove investments with LocalStorage persistence. Displays total invested amount and pie chart allocation.
+- **Investment Calculator**: Calculate projected returns based on initial amount, years, and interest rate.
+- **Responsive Design**: Clean, mobile-friendly UI using Tailwind CSS with green/blue colors, larger fonts, and rounded shapes.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **ReactJS**: Frontend framework for building the UI.
+- **React Router Dom**: For multi-page navigation.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Recharts**: Chart library for line and pie charts.
+- **LocalStorage**: For persisting portfolio data in the browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Author / Contributors
 
-### `npm test`
+Made by Anshika Gaur
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Pages & Functionality
 
-### `npm run build`
+### Home Page (/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Hero section with welcome message.
+- Links to each investment type page.
+- Beginner tips cards.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Stocks Page (/stocks)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Detailed beginner information.
+- Pros and cons.
+- How to start investing.
+- Past trends line chart.
+- FAQs accordion.
 
-### `npm run eject`
+### Bonds Page (/bonds)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Detailed beginner information.
+- Pros and cons.
+- How to start investing.
+- Past trends line chart.
+- FAQs accordion.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Mutual Funds Page (/mutual-funds)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Detailed beginner information.
+- Pros and cons.
+- How to start investing.
+- Past trends line chart.
+- FAQs accordion.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### ETFs Page (/etfs)
 
-## Learn More
+- Detailed beginner information.
+- Pros and cons.
+- How to start investing.
+- Past trends line chart.
+- FAQs accordion.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Crypto Page (/crypto)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Detailed beginner information.
+- Pros and cons.
+- How to start investing.
+- Past trends line chart.
+- FAQs accordion.
 
-### Code Splitting
+### Calculator Page (/calculator)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- ROI calculator with inputs for amount, years, and interest rate.
+- Displays projected returns.
 
-### Analyzing the Bundle Size
+### Portfolio Page (/portfolio)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Portfolio tracker form to add investments.
+- Pie chart for portfolio allocation.
+- List of investments with remove option.
+- Total invested amount display.
 
-### Making a Progressive Web App
+## How to Run the Project Locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. **Clone the repository** (if applicable) or navigate to the project directory.
 
-### Advanced Configuration
+2. **Install dependencies**:
+   ```
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. **Start the development server**:
+   ```
+   npm start
+   ```
 
-### Deployment
+4. **Open your browser** and go to `http://localhost:3000` to view the app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## How to Use Portfolio Tracker
 
-### `npm run build` fails to minify
+1. Navigate to the Portfolio page.
+2. Select investment type from the dropdown.
+3. Enter the investment name and amount.
+4. Click "Add Investment" to add it to your portfolio.
+5. View the list of investments and total invested amount.
+6. The portfolio allocation pie chart updates automatically.
+7. Investments are saved in your browser's LocalStorage.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## How to Use Investment Calculator
+
+1. Go to the Calculator page.
+2. Enter the initial investment amount.
+3. Enter the number of years.
+4. Enter the annual interest rate (as a percentage).
+5. Click "Calculate Returns" to see the projected returns.
+
+## Screenshots
+
+![Home Page](public/screenshot-home.png)
+![Stocks Page](public/types.png)
+![Portfolio Page](public/screenshot-portfolio.png)
+![Calculator Page](public/screenshot-calculator.png)
+![Crypto Page](public/screenshot-crypto.png)
+
+
+
+
+## License
+
+This project is licensed under the MIT License.
+
+## Copyright
+
+© 2025 Anshika Gaur. All rights reserved.
+
+## License Restriction
+
+This software is provided under a restrictive license that prohibits unauthorized copying, distribution, or use of the source code or compiled application. You may not clone, fork, copy, or redistribute this project without explicit permission from the author. All rights are reserved.
+
+If you wish to use or modify this project, please contact the author for licensing terms.
+
+
+## Contact
+
+For questions or feedback, please reach out.
